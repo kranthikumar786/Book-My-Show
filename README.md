@@ -6,17 +6,18 @@ BookMyShow is an online ticketing facility like Movietickets.com ,Explara and Ti
 ![BookMyShowMobileView](https://github.com/kranthikumar786/Book-My-Show/blob/main/Images/BookMyShow.jpg)
 
 ## Requriments gathering
- Here are some queston you would ask to gather requriments ?
-    1.Can a cinema hall have multiple screens/halls?
-    2.Can a movie be shown in multiple halls?
-    3.Can a movie be of multiple languages?
-    4.Can a user book multiple tickets for single movie ?
-    5.Are there multiple types of tickets ?
-    6.How does user find a movie ?
-    7. How does a user book a ticket ?
-    8. How does a user pay for a ticket ?
-    9. How does a new movie get added to the system ?
-    10. Are there any discounts available ?
+ Here are some questions you would ask to gather requirements:
+ 
+1. Can a cinema hall have multiple screens/halls?
+2. Can a movie be shown in multiple halls?
+3. Can a movie be of multiple languages?
+4. Can a user book multiple tickets for a single movie?
+5. Are there multiple types of tickets?
+6. How does a user find a movie?
+7. How does a user book a ticket?
+8. How does a user pay for a ticket?
+9. How does a new movie get added to the system?
+10. Are there any discounts available?
 ## Requriments 
  Build an online movie ticket booking system that can support the following requriments :
   - Support for multiple cities
