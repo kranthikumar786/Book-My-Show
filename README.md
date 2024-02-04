@@ -131,4 +131,96 @@ BookMyShow is an online ticketing facility like Movietickets.com ,Explara and Ti
        - Ticket
    Draw the class diagram 
              
-        
+        classDiagram
+  class City {
+    -String name
+    -Theater[] theaters
+  }
+
+  class Theater {
+    -String name
+    -String address
+    -Hall[] halls
+    -Show[] shows
+  }
+
+  class Hall {
+    -String name
+    -Seat[] seats
+    -Show[] shows
+  }
+
+  class Seat {
+    -String number
+    -String type
+  }
+
+  class Show {
+    -Movie movie
+    -Date startTime
+    -int duration
+    -String language
+    -ShowSeat[] showSeats
+  }
+
+  class Movie {
+    -String name
+    -int rating
+    -String category
+    -String[] languages
+    -Show[] shows
+  }
+
+  class ShowSeat {
+    -Seat seat
+    -Show show
+    -SeatStatus status
+  }
+
+  class SeatStatus {
+    <<enumeration>>
+    AVAILABLE
+    BOOKED
+  }
+
+  class Ticket {
+    -double amount
+    -Seat[] seats
+    -Show show
+    -User user
+    -Payment payment
+    -TicketStatus status
+  }
+
+  class Payment {
+    -double amount
+    -PaymentMode mode
+    -PaymentStatus status
+    -Ticket ticket
+  }
+
+  class PaymentMode {
+    <<enumeration>>
+    UPI
+    CREDIT_CARD
+    NETBANKING
+  }
+
+  class PaymentStatus {
+    <<enumeration>>
+    SUCCESS
+    FAILED
+  }
+
+  class TicketStatus {
+    <<enumeration>>
+    BOOKED
+    CANCELLED
+  }
+
+### API Design
+ What will be some APIs that you would design for this system ?
+ Look at the use cases and try to design APIs for each of them.
+  You can simply write the APIs in the following format : API Name - HTTP Method - URL - ?Request body - ?Response body
+You could also use a tool lie Swagger to design the APIs or follow this repository for a simple way to use Markdown to strucuture you API documentaion.
+
