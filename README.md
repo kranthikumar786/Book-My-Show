@@ -72,6 +72,63 @@ BookMyShow is an online ticketing facility like Movietickets.com ,Explara and Ti
      - Pay for a ticket
      - Cancel a ticket
   Draw the use case diagram.
-  
-     
+   @startuml
+   left to right direction
+   actor User 
+   actor Admin
+     rectangele BookYourShow {
+       User --> (Search for a movie)
+       User -->(Book a ticket)
+       User --> (Pay for a ticket)
+       User -->(Cancel a ticket)
+
+       Admin -->(Add a new movie)
+       Admin -->(Add a new cinema hall)
+       Admin -->(Add a new show)
+       
+     }
+    @enduml
+ ### Class diagrams
+  What will be the major classes and their attributes ?
+   - City
+       - Name
+       - Theaters
+   - Theater
+        - Name
+        - Address
+        - Halls
+        - Shows
+    - Halls
+        - Name
+        - Seats
+        - Shows
+    - Seat 
+         - Number
+         - Type - GOLD,DIAMOND,PLATINUM
+    - Show
+         - Movie
+         - Start Time
+         - Duration
+         - Language
+         - ShowSeats
+   - Movie
+       - Name
+       - Rating
+       - Category
+       - Languages
+       - Shows
+    - Ticket
+       - Amount
+       - Seats
+       - Show
+       - User
+       - Payment
+       - Status
+   - Payments
+       - Amount
+       - Mode - UPI,CREDIT_CARD,NETBANKING
+       - Status - SUCCESS,FAILED
+       - Ticket
+   Draw the class diagram 
+             
         
