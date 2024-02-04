@@ -218,7 +218,7 @@ BookMyShow is an online ticketing facility like Movietickets.com ,Explara and Ti
     CANCELLED
   }
 
-### API Design
+## API Design
  What will be some APIs that you would design for this system ?
  Look at the use cases and try to design APIs for each of them.
   You can simply write the APIs in the following format : API Name - HTTP Method - URL - ?Request body - ?Response body
