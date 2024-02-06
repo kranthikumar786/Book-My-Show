@@ -27,7 +27,7 @@ BookMyShow is an online ticketing facility like Movietickets.com ,Explara and Ti
   - A cinema will play multiple movies
   - Each hall can have multiple type sof seats
      - GOLD
-     - DIAMONS
+     - DIAMOND
      - PLATINUM
    - Allow the user to search a movie by name
    - Allow the user to filter movies by the following fields [When we have /going to have large amout of data make sure you should provide filets for easy customer experince]
