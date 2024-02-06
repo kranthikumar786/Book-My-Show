@@ -1,3 +1,4 @@
+package com.BookMyShow.bookMyShow.Models;
 @Getter
 @Setter
 @Entity
@@ -7,6 +8,7 @@ public class Movie  extends BaseModel{
     private Double rating;
    @ElementCollectin
    @Enumerated
+   // language is a collection of enumarates so using above @ElementCollection annotation
     private List<Language> languages = new ArrayList<>();
     @ElementCollectin
     @Enumerated

@@ -1,6 +1,9 @@
+package com.BookMyShow.bookMyShow.Models;
 @Getter
 @Setter
 @Entity
+// show is by default lagnauge specif so can't create table with that name
+@Table(name = "shows")
 public class Show extends BaseModel {
     @ManyToOne
     @JoinColumn(name = "movie_id")

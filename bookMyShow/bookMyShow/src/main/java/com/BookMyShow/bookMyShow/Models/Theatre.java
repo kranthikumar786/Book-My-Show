@@ -1,3 +1,4 @@
+package com.BookMyShow.bookMyShow.Models;
 @Getter
 @Setter
 @Entity
@@ -8,5 +9,6 @@ public class Theatre extends BaseModel {
     @OneToMany
     private List<Hall> halls = new ArrayList<>();
     @OneToMany
+    // spring ORM will create table and relation b/w entities as well.
     private List<Show> shows = new ArrayList<>();
 }

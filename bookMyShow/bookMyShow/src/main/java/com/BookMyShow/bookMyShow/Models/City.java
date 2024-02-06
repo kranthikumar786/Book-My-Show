@@ -1,3 +1,4 @@
+package com.BookMyShow.bookMyShow.Models;
 @Getter
 @Setter
 @Entity
