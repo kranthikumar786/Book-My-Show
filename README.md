@@ -142,7 +142,7 @@ rectangle BookYourShow {
    ---
    Draw the class diagram 
              
-        ```mermaid
+ 
 classDiagram
   class City {
     -String name
@@ -229,11 +229,11 @@ classDiagram
     BOOKED
     CANCELLED
   }
-```
+
 
 ## API Design
  What will be some APIs that you would design for this system ?
  Look at the use cases and try to design APIs for each of them.
-  You can simply write the APIs in the following format : API Name - HTTP Method - URL - ?Request body - ?Response body
+  You can simply write the APIs in the following format : API Name - `HTTP Method` - `URL` - `?Request body` - `?Response body`
 You could also use a tool lie Swagger to design the APIs or follow this repository for a simple way to use Markdown to strucuture you API documentaion.
 
