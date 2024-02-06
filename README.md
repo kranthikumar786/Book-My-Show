@@ -59,8 +59,8 @@ What would be the actors in this system?
 2. Admin
   ### Use Cases 
    What would be the use cases i.e. the interactions between the actors and systems ?
-   #### Actor 1
-      Name of the actor - Admin 
+   ### Actor 2
+   Name of the actor - Admin 
    ### Use Cases:
 
 - Add a new movie
