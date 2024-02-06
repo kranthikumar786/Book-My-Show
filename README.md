@@ -61,10 +61,12 @@ What would be the actors in this system?
    What would be the use cases i.e. the interactions between the actors and systems ?
    #### Actor 1
       Name of the actor - Admin 
-   ### Use Cases: 
-      - Add a new movie
-      - Add a new cinema hall
-      - Add a new show 
+   ### Use Cases:
+
+- Add a new movie
+- Add a new cinema hall
+- Add a new show
+
    ### Actor 2
    Name of the actor - User
    ### Use Cases:
