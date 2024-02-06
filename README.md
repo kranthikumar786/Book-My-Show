@@ -78,22 +78,22 @@ What would be the actors in this system?
 ---
   Draw the use case diagram.
   
-   @startuml
-   left to right direction
-   actor User 
-   actor Admin
-     rectangele BookYourShow {
-       User --> (Search for a movie)
-       User -->(Book a ticket)
-       User --> (Pay for a ticket)
-       User -->(Cancel a ticket)
+  ```plantuml
+left to right direction
+actor User
+actor Admin
 
-       Admin -->(Add a new movie)
-       Admin -->(Add a new cinema hall)
-       Admin -->(Add a new show)
-       
-     }
-    @enduml
+rectangle BookYourShow {
+    User --> (Search for a movie)
+    User --> (Book a ticket)
+    User --> (Pay for a ticket)
+    User --> (Cancel a ticket)
+    
+    Admin --> (Add a new movie)
+    Admin --> (Add a new cinema hall)
+    Admin --> (Add a new show)
+}
+
  ### Class diagrams
   What will be the major classes and their attributes ?
    - City
