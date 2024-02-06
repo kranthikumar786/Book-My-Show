@@ -60,7 +60,7 @@ What would be the actors in this system?
   ### Use Cases 
    What would be the use cases i.e. the interactions between the actors and systems ?
    ### Actor 2
-   Name of the actor - Admin 
+   Name of the actor - **Admin** 
    ### Use Cases:
 
 - Add a new movie
