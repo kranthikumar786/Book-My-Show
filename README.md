@@ -79,6 +79,7 @@ What would be the actors in this system?
   Draw the use case diagram.
   
   ```plantuml
+@startuml
 left to right direction
 actor User
 actor Admin
@@ -92,7 +93,10 @@ rectangle BookYourShow {
     Admin --> (Add a new movie)
     Admin --> (Add a new cinema hall)
     Admin --> (Add a new show)
-} `````
+}
+@enduml
+```
+
 
  ### Class diagrams
   What will be the major classes and their attributes ?
