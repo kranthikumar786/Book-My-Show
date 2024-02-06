@@ -92,7 +92,7 @@ rectangle BookYourShow {
     Admin --> (Add a new movie)
     Admin --> (Add a new cinema hall)
     Admin --> (Add a new show)
-}
+} `````
 
  ### Class diagrams
   What will be the major classes and their attributes ?
