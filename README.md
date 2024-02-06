@@ -10,7 +10,7 @@ BookMyShow is an online ticketing facility like Movietickets.com, Explara and Ti
 
 ## Requirements gathering
 
-What are some questions you would ask to gather requirements?
+Here are some questions you would ask to gather requirements:
 
 1. Can a cinema hall have multiple screens/halls?
 2. Can a movie be shown in multiple halls?
@@ -263,4 +263,4 @@ Look at the use cases and try to design APIs for each of them.
 You can simply write the APIs in the following format:
 `API name` - `HTTP method` - `URL` - `?Request body` - `?Response body`
 
-You could also use a tool like [Swagger](https://swagger.io/) to design the APIs or follow [this](https://github.com/jamescooke/restapidocs) repository for a simple way to use Markdown to structure your API documentation.
+You could also use a tool like [SpostMan]([https://swagger.io/](https://www.postman.com/downloads/)) to design the APIs or follow [this](https://github.com/jamescooke/restapidocs) repository for a simple way to use Markdown to structure your API documentation.
