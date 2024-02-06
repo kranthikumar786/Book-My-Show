@@ -54,9 +54,9 @@ BookMyShow is an online ticketing facility like Movietickets.com ,Explara and Ti
 ## Use Case Diagrams
  Are the requiremts clear enought to define use cases ? if not , try to think of the actors and their interaction with the system.
  ### Actors
-  What would be the actors in this system ?
-     1. User 
-     2. Admin
+What would be the actors in this system?
+1. User
+2. Admin
   ### Use Cases 
    What would be the use cases i.e. the interactions between the actors and systems ?
    #### Actor 1
