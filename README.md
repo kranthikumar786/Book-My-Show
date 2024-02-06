@@ -139,9 +139,11 @@ rectangle BookYourShow {
        - Mode - UPI,CREDIT_CARD,NETBANKING
        - Status - SUCCESS,FAILED
        - Ticket
+   ---
    Draw the class diagram 
              
-        classDiagram
+        ```mermaid
+classDiagram
   class City {
     -String name
     -Theater[] theaters
@@ -227,6 +229,7 @@ rectangle BookYourShow {
     BOOKED
     CANCELLED
   }
+```
 
 ## API Design
  What will be some APIs that you would design for this system ?
