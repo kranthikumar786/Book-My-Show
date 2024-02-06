@@ -59,7 +59,7 @@ What would be the actors in this system?
 2. Admin
   ### Use Cases 
    What would be the use cases i.e. the interactions between the actors and systems ?
-   ### Actor 2
+   ### Actor 1
    Name of the actor - <span style="background-color: yellow;">Admin</span>
    ### Use Cases:
 
@@ -75,7 +75,9 @@ What would be the actors in this system?
 - Book a ticket
 - Pay for a ticket
 - Cancel a ticket
+---
   Draw the use case diagram.
+  
    @startuml
    left to right direction
    actor User 
