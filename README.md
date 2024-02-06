@@ -67,11 +67,12 @@ What would be the actors in this system?
       - Add a new show 
    ### Actor 2
    Name of the actor - User
-   ### Use cases:
-     - Search for a movie
-     - Book a ticket
-     - Pay for a ticket
-     - Cancel a ticket
+   ### Use Cases:
+
+- Search for a movie
+- Book a ticket
+- Pay for a ticket
+- Cancel a ticket
   Draw the use case diagram.
    @startuml
    left to right direction
